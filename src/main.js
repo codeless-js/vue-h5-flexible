@@ -13,6 +13,8 @@ Vue.prototype.$settings = $settings;
 import '@/plugins/vant';
 // 引入全局样式
 import '@/styles/index.scss';
+// 移动端适配
+import 'lib-flexible/flexible.js';
 
 Vue.config.productionTip = false;
 
